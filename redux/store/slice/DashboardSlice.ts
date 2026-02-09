@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-
+//this is dashboard interface state which is used to manage state of dashboard page
 interface DashboardState {
   date: string;
   user: string;
