@@ -22,10 +22,10 @@ export const dashboardSlice = createSlice({
     setDate: (state, action: PayloadAction<string>) => { state.date = action.payload; },
     setUser: (state, action: PayloadAction<string>) => { state.user = action.payload; },
     toggleSidebar: (state) => { state.isSidebarOpen = !state.isSidebarOpen; },
-    toggleMobileMenu: (state) => { state.isMenuOpen = !state.isMenuOpen; },
-    closeMobileMenu: (state) => { state.isMenuOpen = false; },
+    toggleMenu: (state) => { state.isMenuOpen = !state.isMenuOpen; },
+    closeMenu: (state) => { state.isMenuOpen = false; },
   },
 });
 
-export const { setDate, setUser, toggleSidebar, toggleMobileMenu, closeMobileMenu } = dashboardSlice.actions;
+export const { setDate, setUser, toggleSidebar, toggleMenu, closeMenu } = dashboardSlice.actions;
 export default dashboardSlice.reducer;
