@@ -23,7 +23,8 @@ A responsive, Admin Analytics Dashboard built with **Next.js**, **TypeScript**, 
     Open the link of localhost in your browser
 
     ```
-
+## Live Link
+[Live Link](https://applify-dashboard.vercel.app/)
 ## Tech Stack
 
 - Framework: Next.js
@@ -32,6 +33,7 @@ A responsive, Admin Analytics Dashboard built with **Next.js**, **TypeScript**, 
 - Styling: Tailwind CSS
 - Charts: Recharts
 - Icons: Lucide React
+- Data: JSON data
 
 ## Architecture Decisions
 Global State Management: Redux Toolkit is used to manage the dashboard's state, including sidebar toggling and data filter for dynamic data visualization.
