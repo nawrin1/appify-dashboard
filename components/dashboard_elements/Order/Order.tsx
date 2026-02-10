@@ -15,11 +15,11 @@ export default function Order() {
   const { date } = useAppSelector((state) => state.dashboard);
 
   // Filter Logic
-  let displayData = DATA.revenue;
+  let displayData = DATA.orders;
   if (date === "Last 7 days") {
-    displayData = DATA.revenue.slice(-4);
+    displayData = DATA.orders.slice(-4);
   } else if (date === "Last 30 days") {
-    displayData = DATA.revenue.slice(-8);
+    displayData = DATA.orders.slice(-8);
   }
 
   return (

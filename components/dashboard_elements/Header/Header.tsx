@@ -4,6 +4,7 @@ import { toggleMenu } from '@/redux/store/slice/DashboardSlice';
 import { Bell, LogOut, Menu, Settings, User } from 'lucide-react';
 import React, { useState, useRef, useEffect } from 'react';
 
+
 const Header = () => {
   const dispatch = useAppDispatch();
   const [isProfileOpen, setIsProfileOpen] = useState(false);

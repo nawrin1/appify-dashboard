@@ -20,6 +20,20 @@ export const DATA = {
     { month: 'Nov', amount: 10200 },
     { month: 'Dec', amount: 12500 },
   ],
+orders: [
+  { month: 'Jan', amount: 180 },
+  { month: 'Feb', amount: 165 },
+  { month: 'Mar', amount: 210 },
+  { month: 'Apr', amount: 195 },
+  { month: 'May', amount: 240 },
+  { month: 'Jun', amount: 225 },
+  { month: 'Jul', amount: 270 },
+  { month: 'Aug', amount: 295 },
+  { month: 'Sep', amount: 280 },
+  { month: 'Oct', amount: 310 },
+  { month: 'Nov', amount: 335 },
+  { month: 'Dec', amount: 380 },
+],
 
   userDistribution: [
     { name: 'Free', value: 720 },

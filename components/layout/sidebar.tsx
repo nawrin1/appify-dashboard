@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronLeft, X } from "lucide-react";
+import { ChartNoAxesColumnIncreasing, ChevronLeft, X } from "lucide-react";
 
 import { useAppDispatch, useAppSelector } from "@/redux/hook/hook";
 import { closeMenu, toggleSidebar } from "@/redux/store/slice/DashboardSlice";
@@ -36,8 +36,8 @@ export default function Sidebar() {
       >
         <div className="flex items-center justify-between p-6 min-h-20">
           <div className="flex items-center gap-3 overflow-hidden">
-            <div className="min-w-8 h-8 bg-[#90c55a] rounded-lg flex items-center justify-center text-white font-bold shadow-lg shadow-indigo-500/20">
-              A
+            <div className="text-[#90c55a]">
+              <ChartNoAxesColumnIncreasing />
             </div>
             {(isSidebarOpen || isMenuOpen) && (
               <span className="font-bold text-xl text-white tracking-tight animate-in fade-in slide-in-from-left-2 duration-300">
