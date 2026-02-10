@@ -16,7 +16,7 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* Mobile Overlay */}
+      {/* Mobile */}
       <div
         className={`fixed inset-0 bg-[#0d111c] backdrop-blur-sm z-[60] lg:hidden transition-opacity duration-300 ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
         onClick={() => dispatch(closeMenu())}
@@ -28,7 +28,7 @@ export default function Sidebar() {
         fixed left-0 top-0 h-screen bg-[#0d111c] text-slate-400 transition-all duration-500 ease-in-out z-[70] border-r border-white/5 shadow-2xl overflow-hidden
         
         
-        ${isSidebarOpen ? "w-64" : "w-20"}
+        ${isSidebarOpen ? "w-56" : "w-20"}
         
         
         ${isMenuOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}

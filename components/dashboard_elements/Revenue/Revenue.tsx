@@ -79,7 +79,7 @@ export default function RevenueChart() {
               backdropFilter: 'blur(12px)',
               borderRadius: '12px', 
               border: '1px solid rgba(255,255,255,0.1)', 
-              boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.5)',
+              boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.5)',
               color: '#fff'
             }}
             itemStyle={{ color: '#90c55a', fontWeight: 'bold' }}

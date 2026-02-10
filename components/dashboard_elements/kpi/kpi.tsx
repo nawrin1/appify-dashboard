@@ -8,7 +8,7 @@ const Kpi = () => {
       {DATA.kpis.map((kpi) => (
         <div 
           key={kpi.label} 
-          className="group relative p-6 rounded-2xl bg-white/[0.02] backdrop-blur-md border border-white/[0.08] shadow-2xl transition-all duration-500 hover:bg-white/[0.05] hover:border-white/20 hover:-translate-y-1"
+          className="group relative p-4 rounded-xl bg-white/[0.02] backdrop-blur-md border border-white/[0.08] shadow-2xl transition-all duration-500 hover:bg-white/[0.05] hover:border-white/20 hover:-translate-y-1"
         >
           
           <div className={`absolute -right-2 -top-2 w-16 h-16 blur-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full ${kpi.isPositive ? 'bg-emerald-500' : 'bg-rose-500'}`} />
