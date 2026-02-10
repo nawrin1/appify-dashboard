@@ -19,9 +19,25 @@ A responsive, Admin Analytics Dashboard built with **Next.js**, **TypeScript**, 
     npm run dev
     ```
 4. **Access the dashboard:**
-    ``Open the link of localhost in your browser
+    ```
+    Open the link of localhost in your browser
 
     ```
 
+## Tech Stack
 
+- Framework: Next.js
+- Language: TypeScript
+- State Management: Redux Toolkit
+- Styling: Tailwind CSS
+- Charts: Recharts
+- Icons: Lucide React
 
+## Architecture Decisions
+Global State Management: Redux Toolkit is used to manage the dashboard's state, including sidebar toggling and data filter for dynamic data visualization.
+
+### Modular Component Folder Structure:
+
+- components/layout: Contains structural elements like the Sidebar.
+- components/dashboard: Contains components of dashboard like KPI cards and specialized charts for visualization.
+- components/ui:  Contains Generic UI elements like custom dropdown filters and buttons
