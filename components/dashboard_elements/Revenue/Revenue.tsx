@@ -43,8 +43,8 @@ export default function RevenueChart() {
           <defs>
          
             <linearGradient id="colorGradient" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0%" stopColor="#90c55a" stopOpacity={1} /> {/* Green */}
-              <stop offset="100%" stopColor="#f59e0b" stopOpacity={1} /> {/* Orange */}
+              <stop offset="0%" stopColor="#90c55a" stopOpacity={1} /> 
+              <stop offset="100%" stopColor="#f59e0b" stopOpacity={1} /> 
             </linearGradient>
 
            

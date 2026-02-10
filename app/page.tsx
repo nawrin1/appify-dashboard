@@ -1,16 +1,16 @@
 'use client';
 
 import React, { useState } from 'react';
-import dynamic from 'next/dynamic';
-import { Bell, UserCircle, Search, Menu, LogOut, Settings, User } from 'lucide-react';
+
 import { useAppDispatch, useAppSelector } from '@/redux/hook/hook';
 import Sidebar from '@/components/layout/sidebar';
-import Head from 'next/head';
+
 import Header from '@/components/dashboard_elements/Header/Header';
 import Kpi from '@/components/dashboard_elements/Kpi/Kpi';
 import { setDate, setUser } from '@/redux/store/slice/DashboardSlice';
 import CustomFilter from '@/components/dashboard_elements/CustomFilter/CustomFilter';
 import RevenueChart from '@/components/dashboard_elements/Revenue/Revenue';
+import Order from '@/components/dashboard_elements/Order/Order';
 
 
 
@@ -64,7 +64,7 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="bg-[#091116] rounded-xl shadow-sm"><RevenueChart /></div>
-            {/* <div className="bg-white p-6 rounded-2xl border shadow-sm"><OrdersBarChart /></div> */}
+            <div className="bg-[#091116] rounded-xl shadow-sm"><Order /></div>
           </div>
           </div>
        </main>

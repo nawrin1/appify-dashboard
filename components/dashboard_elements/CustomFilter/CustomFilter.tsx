@@ -51,7 +51,7 @@ export default function CustomFilter({ label, options, selectedValue, onSelect }
 
       {/* Dropdown  */}
       {isOpen && (
-        <div className="absolute left-0 mt-2 w-full bg-[#161b2b] border border-white/10 rounded-2xl shadow-2xl z-[100] py-1.5 overflow-hidden backdrop-blur-2xl transition-all duration-300 origin-top scale-100 opacity-100">
+        <div className="absolute left-0 mt-2 w-full bg-[#0d1116] border border-white/10 rounded-2xl shadow-2xl z-[100] py-1.5 overflow-hidden backdrop-blur-2xl transition-all duration-300 origin-top scale-100 opacity-100">
           <div className="max-h-60 overflow-y-auto custom-scrollbar">
             {options.map((option) => (
               <button
