@@ -49,10 +49,10 @@ const Header = () => {
                     <p className="text-xs text-slate-400 font-semibold uppercase">My Account</p>
                   </div>
                   <button className="w-full flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-slate-50">
-                    <User size={16} /> Profile Settings
+                    <User size={16} /> Profile 
                   </button>
                   <button className="w-full flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-slate-50">
-                    <Settings size={16} /> System Prefs
+                    <Settings size={16} /> System settings
                   </button>
                   <button className="w-full flex items-center gap-3 px-4 py-2 text-sm text-rose-600 hover:bg-rose-50 border-t border-slate-100 mt-1">
                     <LogOut size={16} /> Logout

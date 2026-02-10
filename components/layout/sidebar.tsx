@@ -18,7 +18,7 @@ export default function Sidebar() {
     <>
       {/* Mobile Overlay */}
       <div
-        className={`fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[60] lg:hidden transition-opacity duration-300 ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
+        className={`fixed inset-0 bg-[#0d111c] backdrop-blur-sm z-[60] lg:hidden transition-opacity duration-300 ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
         onClick={() => dispatch(closeMenu())}
       />
 
