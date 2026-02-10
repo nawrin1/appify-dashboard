@@ -2,6 +2,7 @@ import { useAppSelector } from '@/redux/hook/hook';
 import { LogOut, Settings } from 'lucide-react'
 import React from 'react'
 
+// this is bottom section of sidebar
 const Bottom_section = () => {
   const { isSidebarOpen, isMenuOpen } = useAppSelector((state) => state.dashboard);
   return (

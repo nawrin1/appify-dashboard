@@ -7,7 +7,6 @@ import { closeMenu, toggleSidebar } from "@/redux/store/slice/DashboardSlice";
 import Bottom_section from "../dashboard_elements/sidebar_elements/Bottom_section/Bottom_section";
 import Nav_items from "../dashboard_elements/sidebar_elements/Nav_items/Nav_items";
 
-
 export default function Sidebar() {
   const { isSidebarOpen, isMenuOpen } = useAppSelector(
     (state) => state.dashboard,
@@ -68,7 +67,6 @@ export default function Sidebar() {
           <Bottom_section />
         </div>
       </aside>
-
     </>
   );
 }

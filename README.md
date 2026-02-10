@@ -42,4 +42,4 @@ Global State Management: Redux Toolkit is used to manage the dashboard's state, 
 
 - components/layout: Contains structural elements like the Sidebar.
 - components/dashboard: Contains components of dashboard like KPI cards and specialized charts for visualization.
-- components/ui:  Contains Generic UI elements like custom dropdown filters and buttons
+- components/provider:  Contains store provider

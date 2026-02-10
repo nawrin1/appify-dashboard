@@ -6,6 +6,7 @@ const Nav_items = () => {
     (state) => state.dashboard,
   );
   
+  // Menu items data
   const menuItems = [
     { icon: LayoutDashboard, label: 'Overview', active: true },
     { icon: UserCheck, label: 'Customers', active: false },
@@ -13,6 +14,7 @@ const Nav_items = () => {
     { icon: ChartLine, label: 'Insights', active: false },
   ];
 
+  // Determine if sidebar is expanded
   const isExpanded = isSidebarOpen || isMenuOpen;
 
   return (
@@ -31,7 +33,7 @@ const Nav_items = () => {
             <div className="absolute left-0 w-1 h-6 bg-[#90c55a] rounded-r-full" />
           )}
           
-       
+        {/* Icon with active state styling */}
           <item.icon 
             size={22} 
             className={`min-w-[22px] transition-transform duration-500 ${

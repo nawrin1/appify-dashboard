@@ -1,5 +1,5 @@
 'use client';
-import { useAppDispatch, useAppSelector } from '@/redux/hook/hook';
+import { useAppDispatch } from '@/redux/hook/hook';
 import { toggleMenu } from '@/redux/store/slice/DashboardSlice';
 import { Bell, LogOut, Menu, Settings, User } from 'lucide-react';
 import React, { useState, useRef, useEffect } from 'react';
