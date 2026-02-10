@@ -10,6 +10,7 @@ import Header from '@/components/dashboard_elements/Header/Header';
 import Kpi from '@/components/dashboard_elements/Kpi/Kpi';
 import { setDate, setUser } from '@/redux/store/slice/DashboardSlice';
 import CustomFilter from '@/components/dashboard_elements/CustomFilter/CustomFilter';
+import RevenueChart from '@/components/dashboard_elements/Revenue/Revenue';
 
 
 
@@ -37,7 +38,7 @@ export default function Home() {
 
                 <div className="p-4 md:p-8 space-y-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <h2 className="text-2xl font-extrabold text-white/80">KPI Overview</h2>
+            <h2 className="text-2xl font-bold text-white/80"></h2>
             <div className="flex gap-3 w-full md:w-auto">
               
 
@@ -60,6 +61,11 @@ export default function Home() {
           </div>
 
           <Kpi />
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="bg-[#091116] rounded-xl shadow-sm"><RevenueChart /></div>
+            {/* <div className="bg-white p-6 rounded-2xl border shadow-sm"><OrdersBarChart /></div> */}
+          </div>
           </div>
        </main>
 
